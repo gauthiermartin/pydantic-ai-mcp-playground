@@ -45,7 +45,7 @@ INSERT INTO posts (user_id, title, content) VALUES
     (1, 'Open Source Contributions', 'How to contribute to open source projects.'),
     (1, 'Code Quality', 'Writing clean, maintainable code.'),
     (1, 'Design Patterns', 'Common software design patterns explained.'),
-    (1, 'Career Development', 'Growing as a software developer.'),
+    
     
     -- Posts for user 2 (Jane Smith)
     (2, 'UX Research Methods', 'Effective user research techniques for product design.'),
@@ -66,8 +66,7 @@ INSERT INTO posts (user_id, title, content) VALUES
     (2, 'UI Design Trends', 'Current trends in user interface design.'),
     (2, 'Design Portfolio', 'Building an effective design portfolio.'),
     (2, 'Design Collaboration', 'Working effectively with developers and stakeholders.'),
-    (2, 'Design Ethics', 'Ethical considerations in product design.'),
-    (2, 'Design Leadership', 'Growing from designer to design leader.'),
+    
     
     -- Posts for user 3 (Alex Wilson)
     (3, 'Data Science Workflow', 'End-to-end process of a data science project.'),
@@ -86,10 +85,7 @@ INSERT INTO posts (user_id, title, content) VALUES
     (3, 'Big Data Technologies', 'Tools for handling large-scale data.'),
     (3, 'Data Ethics', 'Ethical considerations in data science.'),
     (3, 'Data Visualization Best Practices', 'Creating effective data visualizations.'),
-    (3, 'A/B Testing', 'Designing and analyzing experiments.'),
-    (3, 'Recommendation Systems', 'Building personalized recommendation algorithms.'),
-    (3, 'Anomaly Detection', 'Finding outliers and unusual patterns in data.'),
-    (3, 'Data Science Career Path', 'Growing as a data scientist.'),
+    
     
     -- Posts for user 4 (Sarah Johnson)
     (4, 'Project Management Basics', 'Core principles of managing software projects.'),
@@ -112,6 +108,10 @@ INSERT INTO posts (user_id, title, content) VALUES
     (4, 'Cross-functional Collaboration', 'Working with design, marketing, and sales teams.'),
     (4, 'Continuous Improvement', 'Implementing retrospectives and improvement cycles.'),
     (4, 'Product Management Career', 'Growing as a product manager.'),
+    (4, 'A/B Testing', 'Designing and analyzing experiments.'),
+    (4, 'Recommendation Systems', 'Building personalized recommendation algorithms.'),
+    (4, 'Anomaly Detection', 'Finding outliers and unusual patterns in data.'),
+    (4, 'Data Science Career Path', 'Growing as a data scientist.'),
     
     -- Posts for user 5 (Mike Brown)
     (5, 'System Architecture', 'Designing scalable software architectures.'),
@@ -133,4 +133,7 @@ INSERT INTO posts (user_id, title, content) VALUES
     (5, 'Automation Strategies', 'Automating infrastructure and operations tasks.'),
     (5, 'Incident Management', 'Responding to and learning from system incidents.'),
     (5, 'Technical Leadership', 'Leading architecture and engineering decisions.'),
-    (5, 'System Design Interviews', 'Preparing for system design discussions.');
+    (5, 'System Design Interviews', 'Preparing for system design discussions.'),
+    (5, 'Career Development', 'Growing as a software developer.'),
+    (5, 'Design Ethics', 'Ethical considerations in product design.'),
+    (5, 'Design Leadership', 'Growing from designer to design leader.');
